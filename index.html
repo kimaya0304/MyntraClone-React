@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+</head>
+
+<body class="bg-secondary">
+    <div class="topnav d-flex">
+        <div class="main_logo" style="width:7%;">
+            <img class="logo" src="./images/logo.webp" alt="">
+        </div>
+        <div class="nav-links" style="width: 48%;">
+            <div><a href="./men-clicked.html"><strong style="display: inline;">Men</strong></a></div>
+            <div><a href="./women-clicked.html"><strong>Women</strong></a></div>
+            <div><a href="./kids-clicked.html"><strong>Kids</strong></a></div>
+            <div><a href="#"><strong>Home & Living</strong></a></div>
+            <div><a href="#"><strong>Beauty</strong></a></div>
+            <div><a href=""><strong>Studio</strong></a></div>
+        </div>
+        <input class="search-bar" type="text" placeholder="Search for products,brands and more..">
+        <div class="icons" style="margin-top: 2%; font-weight: bold;">
+            <i class="bi bi-person">Profile</i>
+            <i class="bi bi-suit-heart">Wishlist</i>
+            <i class="bi bi-handbag">Bag</i>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container1 d-flex">
+
+            <div class="slides">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img class="slide-1"
+                            src="https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?q=80&w=2695&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            style="width:100%" alt="img-1">
+                        <!-- <div class="text">Image 1</div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 3</div> -->
+                        <img class="slide-2"
+                            src="https://icon.in/cdn/shop/files/Tote-Bag-_Maroon.jpg?v=1704453476&width=990"
+                            style="width:100%" alt="img-2">
+                        <!-- <div class="text">Image 2</div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img class="slide-3" src="https://www.darveys.com/blog/wp-content/uploads/2022/06/7.jpg"
+                            style="width:100%" alt="img-3">
+                        <!-- <div class="text">Image 3</div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img class="slide-4"
+                            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.weddingwire.in%2Fwedding-tips%2Fanarkali-designs--c3561&psig=AOvVaw2QVgvy_RYWm04AmEqpEXNw&ust=1708533534623000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCu7d-MuYQDFQAAAAAdAAAAABAF"
+                            style="width:100%" alt="img-4">
+                        <!-- <div class="text">Image 3</div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img class="slide-5"
+                            src="https://imgeng.jagran.com/images/2023/feb/Best%20Saree%20For%20Women%20In%20India1676877933814.jpg"
+                            style="width:100%" alt="img-5">
+                        <!-- <div class="text">Image 3</div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img class="slide-6" src="" style="width:100%" alt="img-6">
+                        <!-- <div class="text">Image 3</div> -->
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+            <div class="side-text1">
+                <div class="div1">
+                    <img class="brands" src="https://www.imagesbof.in/wp-content/uploads/2023/06/van-heusen.jpg" alt="">
+                    <h1>Minimum 50% off</h1>
+                </div>
+                <div class="div2">
+                    <img class="brands"
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                    <h1>Minimum 40% off</h1>
+                </div>
+                <div class="text-end">
+                    <button type="button" class="btn btn-primary mt-5" id="btn">
+                        Explore</button>
+                </div>
+            </div>
+            <div class="side-text2">
+                <div class="div3">
+                    <img class="brands"
+                        src="https://www.marketing91.com/wp-content/uploads/2019/06/Most-Expensive-Clothing-Brands-6.jpg"
+                        alt="">
+                    <h1>Minimum 70% off</h1>
+
+                </div>
+
+                <div class="div4">
+                    <img class="brands" src="https://www.hrkatha.com/wp-content/uploads/2020/07/raymond-logo.png"
+                        alt="">
+                    <h1>Minimum 30% off</h1>
+                </div>
+
+                <div class="fixed">
+                    <i class="bi bi-caret-left-fill"></i>
+                    <div>
+                        <span class="test2">Flat rs. 200 OFF</span></p>
+                    </div>
+
+                    <div class="notification">
+                        <i class="bi bi-bell-fill"></i>
+                        <span class="badge">3</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="container-offers">
+        <div class="offers">
+            <div class="heading">
+                <span>MEDAL WORTHY BRANDS TO BAG</span>
+
+            </div>
+
+            <div class="row">
+                <div class=" medal column mt-4">
+                    <img src="https://www.walgreens.com/images/adaptive/sp2/3615213_021824_DOLP_M_BeautyAndPersonalCare_375x300.jpg"
+                        alt="Snow" style="width:100%">
+                    <h1>Personal care</h1>
+                    <strong>BUY 1 GET 1 FREE</strong>
+                </div>
+                <div class=" medal column mt-4">
+                    <img src="https://i.pinimg.com/736x/c1/7f/ac/c17fac76ba8e4598a690c01879fb0425.jpg" alt="Forest"
+                        style="width:100%">
+                    <h1>Casuals</h1>
+                    <strong>MIN 40% OFF</strong>
+                </div>
+
+                <div class="medal column mt-4">
+                    <img src="https://www.kapdathread.com/images/product/2023/04/women-stylish-ethenic-gowns-with-hand-touch-up-2023-04-06_23_02_51.jpg"
+                        alt="Mountains" style="width:100%">
+                    <h1>Ehtenic wear</h1>
+                    <strong>FLAT 65% OFF</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <span class="title">GRAND GLOBAL BRANDS</span>
+    </div>
+
+    <div class="row">
+        <div class="global column mt-4">
+            <img src="https://img.freepik.com/premium-photo/skin-care-products-healthcare-procedures-concept-hygiene-cosmetic-healthy-lifestyle-spa_266732-20971.jpg"
+                alt="Snow" style="width:100%">
+            <h1>Personal care</h1>
+            <strong>BUY 1 GET 1 FREE</strong>
+        </div>
+        <div class="global column mt-4">
+            <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/blog/2023/08/hockerty_business_casual_outfits_for_woman_013a099b_0b8b_43a2_886f_754716f88f1a.png"
+                alt="Forest" style="width:100%">
+            <h1>Casuals</h1>
+            <strong>MIN 40% OFF</strong>
+        </div>
+        <div class="global column mt-4">
+            <img src="https://imgmedia.lbb.in/media/2023/12/657985c49930c856b97c9bdc_1702462916463.jpg" alt="Mountains"
+                style="width:100%">
+            <h1>Ehtenic wear</h1>
+            <strong>FLAT 65% OFF</strong>
+        </div>
+    </div>
+    <BR><br>
+    <div class="container2 mb-3">
+
+        <div class="heading">
+            <span class="title">SHOP BY CATEGORY</span>
+        </div>
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?cs=srgb&dl=pexels-chloe-1043474.jpg&fm=jpg"
+                    alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://cdn.shopify.com/s/files/1/0266/6276/4597/files/300961856OLIVE_1.jpg?v=1707999601"
+                    alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/mountain.jpeg">
+                <img src="./images/mountain.jpeg" alt="Forest">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://awbi.in/wp-content/uploads/2023/12/Screenshot-2024-01-03-001357.png" alt="Notebook"
+                    style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/snow.jpeg">
+                <img src="./images/snow.jpeg" alt="Northern Lights">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://people.com/thmb/5hQl-b0JbqsXuDUvpT6kWeoiW7Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(665x0:667x2)/jordyn-woods-2000-d4f7a6878fcc42d3968026d433f2af73.jpg"
+                    alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/forest.jpeg">
+                <img src="./images/forest.jpeg" alt="Mountains">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://m.media-amazon.com/images/I/61TfzuHHYEL._AC_UY1100_.jpg" alt="Notebook"
+                    style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery"> -->
+            <!-- <a target="_blank" href="./images/mountain.jpeg">
+                <img src="./images/mountain.jpeg" alt="Forest">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTgxMTY1NTI5MzExMTAw/little-kid-dancing-and-listening-to-music-in-green-park.jpg"
+                    alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/snow.jpeg">
+                <img src="./images/snow.jpeg" alt="Northern Lights">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://i.pinimg.com/736x/7b/37/45/7b3745e646a351ec3d8168ad953b2388.jpg" alt="Notebook"
+                    style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/forest.jpeg">
+                <img src="./images/forest.jpeg" alt="Mountains">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+
+        <div class="responsive mt-4">
+            <div class="container">
+                <img src="https://imagevars.gulfnews.com/2018/11/24/181124_teenagers_resources1_16a085238e1_large.jpg"
+                    alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <p><strong>Ethenic Wear</strong></p>
+                    <p>30-40% Off</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <!-- <div class="gallery">
+            <a target="_blank" href="./images/forest.jpeg">
+                <img src="./images/forest.jpeg" alt="Mountains">
+            </a> -->
+            <!-- <div class="desc">workwear 40-70% off</div> -->
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+    <hr>
+
+
+    <footer>
+        <div class="container3 mt-3">
+            <div class="row">
+                <div class="col-3">
+                    <strong>ONLINE SHOPPING</strong>
+                    <br><br>
+                    <ul>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Kids</li>
+                        <li>Home & Living</li>
+                        <li>Beauty</li>
+                        <li>Gift Cards</li>
+                        <li>Myntra Insider</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <strong>CUSTOMER POLICIES</strong>
+                    <br><br>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                        <li>T&C</li>
+                        <li>Terms Of Use</li>
+                        <li>Track Orders</li>
+                        <li>Shipping</li>
+                        <li>Cancellation</li>
+                        <li>Returns</li>
+                        <li>Privacy policy</li>
+                        <li>Grievance Officer</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <strong>EXPERIENCE MYNTRA APP ON MOBILE</strong>
+                    <br><br>
+                    <div class="contact-logo img-2 d-flex gap-3">
+                        <img src="./images/googleplay.png" alt="googleplay">
+                        <img src="./images/appstore.jpg" alt="appstore">
+                    </div>
+                    <br><br>
+                    <strong>KEEP IN TOUCH</strong>
+                    <br>
+                    <div class="icons">
+                        <i class=" gap-3 bi bi-facebook"></i>
+                        <i class=" gap-3 bi bi-twitter"></i>
+                        <i class=" gap-3 bi bi-youtube"></i>
+                        <i class=" gap-3 bi bi-instagram"></i>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="div1 d-flex gap-3">
+                        <img class="img-3" src="./images/original.webp" alt="">
+                        <div class=" logo-text d-flex">
+                            <h1>100% ORIGINAL</h1>
+                            <p>for all products at myntra.com</p>
+                        </div>
+
+                    </div>
+
+                    <div class="div2 d-flex gap-3">
+                        <img class="img-4" src="./images/14days.svg" alt="">
+                        <div class="d-flex">
+                            <h1>RETURN WITHIN 14 DAYS OF</h1>
+                            <p>recieving your order</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-5 mt-3">
+                <strong>USEFUL LINKS</strong>
+                <ul>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                    <li>Site Map</li>
+                    <li>Corporate Information</li>
+                    <li>Whitehat</li>
+                    <li>Cleartrip</li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-4">
+            <strong>POPULAR SEARCHES</strong>
+            <p class="mt-3">
+                Makeup| Dresses For Girls| T-Shirts| Sandals |Headphones| Babydolls| Blazers For Men| Handbags| Ladies
+                Watches|
+                Bags |Sport Shoes| Reebok Shoes| Puma Shoes| Boxers| Wallets| Tops |Earrings| Fastrack Watches |Kurtis|
+                Nike Smart
+                Watches |Titan Watches| Designer Blouse| Gowns| Rings| Cricket Shoes |Forever 21 Eye Makeup| Photo
+                Frames|
+                Punjabi Suits| Bikini| Myntra Fashion Show| Lipstick| Saree |Watches| Dresses |Lehenga| Nike Shoes
+                |Goggles| Bras|
+                Suit| Chinos Shoes| Adidas Shoes| Woodland Shoes| Jewellery |Designers Sarees
+            </p>
+        </div>
+        <div class="contact">
+            <div class="row">
+                <div class="d-flex justify-content-between mt-4">
+                    <col-4>
+                        <p>In case of any concern, <strong>Contact Us</strong> </p>
+                    </col-4>
+                    <col-4>
+                        <p>© 2024 www.myntra.com. All rights reserved.</p>
+                    </col-4>
+                    <col-4>
+                        <p>A Flipkart company</p>
+                    </col-4>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row d-flex justify-content-between">
+            <div class="col-6 mt-4">
+                <strong style="margin-left: 150px;">Registered Office Address</strong>
+                <br>
+                <pre>
+                    Buildings Alyssa,
+                    Begonia and Clover situated in Embassy Tech Village,
+                    Outer Ring Road,
+                    Devarabeesanahalli Village,
+                    Varthur Hobli,
+                    Bengaluru 560103, India
+                </pre>
+            </div>
+            <div class="col-6 mt-4">
+                <p>CIN: U72300KA2007PTC041799</p>
+                <p>Telephone:<strong> +91-80-61561999</strong></p>
+            </div>
+        </div>
+        <br>
+        <div class="container5">
+            <div class="row">
+                <strong>ONLINE SHOPPING MADE EASY AT MYNTRA</strong>
+                <p>
+                    If you would like to experience the best of online shopping for men, women and kids in India, you
+                    are at
+                    the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide
+                    array of merchandise including clothing, footwear, accessories, jewellery, personal care products
+                    and
+                    more. It is time to redefine your style statement with our treasure-trove of trendy items. Our
+                    online
+                    store brings you the latest in designer products straight out of fashion houses. You can shop online
+                    at
+                    Myntra from the comfort of your home and get your favourites delivered right to your doorstep.
+                </p>
+                <br>
+                <strong>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</strong>
+                <p>Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and
+                    functionality for men, women and kids. You will realise that the sky is the limit when it comes to
+                    the
+                    types of outfits that you can purchase for different occasions.
+                </p>
+                <br>
+            </div>
+            <br>
+            <div class="row">
+                <li><strong>Fashionable footwear - </strong></li>
+                <p>
+                    While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you
+                    an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power
+                    statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for
+                    men and women. Choose shoes for individual games such as tennis, football, basketball, and the like.
+                    Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our
+                    lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and
+                    pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.
+                </p>
+            </div><br>
+            <div class="row">
+                <li><strong>Trendy women’s clothing -</strong></li>
+                <p>
+                    Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay
+                    comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a
+                    little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts
+                    represent the classic spirit of nautical fashion. Choose your favourites from among Bardot,
+                    off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up
+                    with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear
+                    combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to
+                    make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and
+                    Patiala suits make comfortable options for regular wear.
+                </p>
+                <br>
+            </div><br>
+            <div class="row">
+                <li><strong>Stylish accessories - </strong></li>
+                <p>
+                    Myntra is one of the best online shopping sites for classy accessories that perfectly complement
+                    your outfits. You can select smart analogue or digital watches and match them up with belts and
+                    ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you
+                    prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you
+                    many impressive options.
+                </p>
+            </div><br>
+            <div class="row">
+                <li><strong>Fun and frolic - </strong></li>
+                <p>
+                    Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide
+                    variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up
+                    sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out
+                    our lineup of toys with which you can create memories to cherish.
+                </p>
+            </div><br>
+            <div class="row">
+                <il><strong>Beauty begins here -</strong></il>
+                <p>
+                    You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty and grooming
+                    products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic products
+                    are specially formulated to reduce the effect of aging and offer the ideal cleansing experience.
+                    Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup
+                    to enhance your natural beauty.
+                </p>
+            </div><br>
+        </div><br>
+
+        <p>
+            Myntra is one of the best online shopping sites in India which could help transform your living spaces
+            completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to
+            impress your guest. Wall decor, clocks, photo frames and artificial plants are sure to breathe life into any
+            corner of your home.
+        </p>
+        <br>
+        <div class="container-6">
+            <div class="row">
+                <strong>AFFORDABLE FASHION AT YOUR FINGERTIPS</strong>
+                <p>
+                    Myntra is one of the unique online shopping sites in India where fashion is accessible to all. Check
+                    out our new arrivals to view the latest designer clothing, footwear and accessories in the market.
+                    You can get your hands on the trendiest style every season in western wear. You can also avail the
+                    best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our
+                    seasonal discounts on footwear, trousers, shirts, backpacks and more. The end-of-season sale is the
+                    ultimate experience when fashion gets unbelievably affordable.
+                </p>
+            </div><br>
+            <div class="row">
+                <strong>MYNTRA INSIDER</strong>
+                <p>
+                    Every online shopping experience is precious. Hence, a cashless reward-based customer loyalty
+                    program called Myntra Insider was introduced to enhance your online experience. The program is
+                    applicable to every registered customer and measures rewards in the form of Insider Points.
+
+                    There are four levels to achieve in the program, as the Insider Points accumulate. They are -
+                    Insider, Select, Elite or Icon. Apart from offering discounts on Myntra and partner platform
+                    coupons, each tier comes with its own special perks.
+                </p>
+            </div><br>
+            <div class="row">
+                <ul>
+                    <strong>Insider</strong>
+                    <li>Opportunity to master any domain in fashion with tips from celebrity stylists at Myntra
+                        Masterclass sessions</li>
+                    <li>Curated collections from celeb stylists.</li>
+                </ul>
+
+                <ul>
+                    <strong>Elite</strong>
+                    <li>VIP access to special sale events such as the End of Reason Sale (EORS) and product launches.
+                    </li>
+                    <li>Exclusive early access to Limited Edition products</li>
+
+                </ul>
+
+                <ul>
+                    <strong>Icon</strong>
+                    <li>Chance to get on guest lists for special events.</li>
+                </ul>
+
+
+
+            </div><br>
+            <div class="row">
+                <strong>Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On</strong>
+                <p>
+                    The world wide web is evolving at a relentless pace, and with an accelerated growth each passing
+                    year, there is bound to be an overwhelming surge of online content. It was for this very reason that
+                    personalisation of search feeds was proposed as a solution to combat the overload of irrelevant
+                    information.
+
+                    Several social media platforms such as Facebook and Instagram along with various online shopping
+                    websites have chosen to help filter content, increasing user engagement, retention and customer
+                    loyalty.
+
+                    Myntra is one such online shopping website that joins the list of platforms that help curate a
+                    personalised fashion feed. Named theMyntra Studio, this personalised search feed brings you the
+                    latest men and women’s fashion trends, celebrity styles, branded content and daily updates from your
+                    favourite fashion labels.
+
+                    If you are wondering how impactful Myntra Studio can be, we are listing out five perks of having a
+                    rich, meaningful, and personalised fashion feed in your life.
+                </p>
+                <br>
+
+                <ol>
+                    <li><strong>Keep Up With What Your Favourite Fashion Icons Are Upto</strong></li>
+                    <p>
+                        The #OOTD, AKA outfit of the day hashtag trend has been a rage among fashion bloggers and
+                        stylists. The whole concept of building an outfit from scratch and showcasing it to a huge
+                        community of enthusiasts using the hashtag has helped individuals with understanding trends and
+                        making suitable for daily wear.
+
+                        Imagine if you could keep up with every piece of clothing and accessory worn by the fashion
+                        icons you look upto. From Sonam Kapoor to Hailey Baldwin Bieber, Myntra Studio has a ‘Stories’
+                        feature to help track celebrity fashion trends, exploring details such as their outfit of the
+                        day. This way, you would not ever miss out on the latest celebrity fashion trends, from all
+                        around the world.
+                    </p>
+                    <br>
+                    <li><strong>Quick Fashion Tip And Tricks</strong></li>
+                    <p>
+                        Whether it is draping a saree into a dhoti style, wearing the right lingerie under certain
+                        dresses or discovering multiple uses out of heavy ethnic wear, Myntra Studio will help you
+                        acquire some unique and useful fashion hacks. Each hack is designed with the intention to help
+                        you get the best wear out of everything in your wardrobe.
+                    </p>
+                    <br>
+
+                    <li><strong>Updates on What Is Trending and New Product Launches</strong></li>
+                    <p>
+                        Since fast fashion seems to be extremely hard to keep up with these days, a quick update on what
+                        is trending in accessories, clothing and footwear would certainly be of great help. Myntra
+                        Studio helps you stay connected to the most beloved and sought after brands such as Puma,
+                        Coverstory, The Label Life and so many more.
+                    </p>
+                    <br>
+
+                    <li><strong>Explicit Step-By-Step Beauty Routines From Experts</strong></li>
+                    <p>
+                        Just like fashion, the beauty community keeps on growing, and with brands such as Huda Beauty,
+                        MAC and the latest Kay Beauty by Katrina Kaif, are constantly coming up with mind-blowing
+                        products. Whether it is creating a no-makeup look, different winged eyeliners, do-it-yourself
+                        facial masks and other personal care beauty routines, Myntra Studio is here for you.
+                    </p>
+                    <br>
+
+                    <li><strong>Celebrity Confessions And A Look Into Their Lives</strong></li>
+                    <p>
+                        A bonus feature that Myntra Studio has in store for you is celebrity confessions and a peek into
+                        their lives. So, Myntra helps you stay connected to your most beloved celebrities in a matter of
+                        clicks.
+
+                        If you are very particular when it comes to the content you wish to view and engage with on
+                        social media, the ability to intricately filter content helps achieve that. Applying the same
+                        formula for hardcore fashion lovers and shoppers, Myntra Studio brings you a daily fashion fix
+                        incorporating everything that you love, all at one place. Sign up on Myntra today and start
+                        organising your fashion feed, just the way you want to.
+                    </p>
+                </ol>
+                <br>
+            </div><br>
+            <div class="row">
+                <div>
+                    <ul>
+                        <li><strong>MYNTRA APP</strong></li>
+                        <p>
+                            Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing
+                            something new and chic to the table on the daily. Fashion trends seem to change at lightning
+                            speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition,
+                            Myntra has vowed to serve customers to the best of its ability by introducing its first-ever
+                            loyalty program, The Myntra Insider. Gain access to priority delivery, early sales,
+                            lucrative
+                            deals and other special perks on all your shopping with the Myntra app. Download the Myntra
+                            app
+                            on your Android or IOS device today and experience shopping like never before!
+                        </p>
+                </div>
+
+                <br>
+                <div>
+                    <li><strong>HISTORY OF MYNTRA</strong></li>
+                    <p>
+                        Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital
+                        enhancements and a team of dedicated personnel with an equally loyal customer base have made
+                        Myntra the online platform that it is today. The original B2B venture for personalized gifts was
+                        conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a
+                        few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform,
+                        and this has only grown in number each passing year. Today Myntra sits on top of the online
+                        fashion game with an astounding social media following, a loyalty program dedicated to its
+                        customers, and tempting, hard-to-say-no-to deals.
+
+                        The Myntra shopping app came into existence in the year 2015 to further encourage customers’
+                        shopping sprees. Download the app on your Android or IOS device this very minute to experience
+                        fashion like never before
+                    </p>
+                </div>
+                <br>
+
+
+                <div>
+                    <li><strong>SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</strong></li>
+                    <p>
+                        Another reason why Myntra is the best of all online stores is the complete convenience that it
+                        offers. You can view your favourite brands with price options for different products in one
+                        place. A user-friendly interface will guide you through your selection process. Comprehensive
+                        size charts, product information and high-resolution images help you make the best buying
+                        decisions. You also have the freedom to choose your payment options, be it card or
+                        cash-on-delivery. The 14-day returns policy gives you more power as a buyer. Additionally, the
+                        try-and-buy option for select products takes customer-friendliness to the next level.
+
+                        Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You
+                        can also shop for your friends, family and loved-ones and avail our gift services for special
+                        occasions.
+                    </p>
+                </div>
+                <br>
+                </ul>
+            </div><br>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+    <script src=" ./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

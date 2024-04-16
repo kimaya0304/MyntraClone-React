@@ -1,0 +1,44 @@
+.intro button {
+    color: white;
+    background-color: rgb(164, 57, 75);
+    border-radius: 3px;
+
+}
+
+.intro h3 {
+    font-size: 20px;
+}
+
+.links ul li {
+    color: grey;
+    list-style-type: none;
+}
+
+.links ul li:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.links ul p {
+    background-color: palevioletred;
+    color: white;
+}
+
+.container .row .col p {
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.container .row .col p:hover {
+    color: blueviolet;
+}
+
+.container .row .col ul li {
+    list-style-type: none;
+    color: grey;
+}
+
+.container .row .col ul li:hover {
+    font-weight: bold;
+    color: black;
+}

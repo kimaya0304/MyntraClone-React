@@ -1,0 +1,12 @@
+.studio img {
+    height: 300px;
+    width: 150px;
+    /* rotate: 5deg; */
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 0;
+}
+
+.info p {
+    padding-left: 400px;
+}

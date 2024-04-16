@@ -1,0 +1,53 @@
+.golden {
+    background-image: linear-gradient(rgb(188, 179, 14), rgba(213, 184, 15, 0.558));
+    width: 100%;
+}
+
+.coupen img {
+    height: 150px;
+    width: 100%;
+}
+
+.login {
+    background-color: white;
+}
+
+.heading {
+    /* justify-content: center; */
+    align-items: start;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.heading h6 {
+    font-weight: bold;
+}
+
+.inp {
+    padding-left: 30px;
+}
+
+.inp input {
+    width: 90%;
+}
+
+.info {
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+.btn {
+    background-color: palevioletred;
+    color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 350px;
+}
+
+.btn:hover {
+    background-color: rgb(199, 18, 57);
+}
+
+.link {
+    margin-left: 15px;
+}

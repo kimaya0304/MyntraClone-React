@@ -1,0 +1,111 @@
+.box-1,
+.box-2 {
+    height: 250px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box-1 img,
+.box-2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+
+}
+
+.image {
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+}
+
+/* .outer {
+    background-color: black;
+} */
+
+.text h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text h1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text h1,
+h2,
+p {
+    margin-left: 50px;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 2px solid blue; */
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+}
+
+.box {
+    /* background-color: rgb(211, 211, 211); */
+    width: 250px;
+}
+
+.box h3 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.div-1 img {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+}
+
+.div-2 h3 {
+    font-size: 20px;
+}
+
+.part {
+    background-color: rgb(211, 211, 211);
+    width: 200px;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+}
+
+/* .div1 {
+    background-color: rgb(211, 211, 211);
+} */
+
+.div1 img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 0.5px rgb(123, 126, 127);
+
+}
+
+.container h1 {
+    font-size: 20px;
+    font-weight: bold;
+}

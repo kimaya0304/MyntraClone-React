@@ -1,0 +1,35 @@
+.container {
+    height: 350px;
+    background-image: linear-gradient(to right, pink, yellow);
+    width: 700px;
+    padding-left: 10px;
+}
+
+.signup {
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    color: white;
+    border: 2px solid palevioletred;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.signup:hover {
+    background-color: rgb(117, 17, 73);
+    color: white;
+}
+
+.icons {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.coupen img {
+    width: 200px;
+}
